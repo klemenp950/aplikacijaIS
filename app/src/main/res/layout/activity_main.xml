@@ -10,7 +10,7 @@
         android:id="@+id/dokument"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No data yet"
+        android:text=""
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="53dp" />
 
@@ -23,5 +23,18 @@
         android:text="Prikaži dokumente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/dodajDokument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="dodajDokument"
+        android:text="Vnesi dokument"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
