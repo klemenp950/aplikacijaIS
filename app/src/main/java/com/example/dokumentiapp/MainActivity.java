@@ -87,4 +87,13 @@ public class MainActivity extends AppCompatActivity {
             Log.d("REST error", error.getMessage());
         }
     };
+
+    public static final String EXTRA_MESSAGE = "com.example.universityapp.MESSAGE";
+
+    public void dodajanjeDokumentovActivity (View view) {
+        Intent intent = new Intent(this, dodajanjeDokumentovActivity.class);
+        String message = "Dodaj dokument v seznam.";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 }

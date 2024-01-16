@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="date"
+            android:inputType="datetime"
             android:text="Datum" />
 
         <EditText
@@ -80,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pošlji"
+            android:onClick="addDocument"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 

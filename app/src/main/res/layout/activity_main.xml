@@ -27,11 +27,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/dodajDokument"
+        android:id="@+id/dodajanjeDokumentovActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:onClick="dodajDokument"
+        android:onClick="dodajanjeDokumentovActivity"
         android:text="Vnesi dokument"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
